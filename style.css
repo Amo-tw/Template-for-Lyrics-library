@@ -1,0 +1,13 @@
+#content div{
+	min-width:48%;
+	max-width:50%;
+	padding: 2px;
+	line-height: 160%;
+	display: inline-block;
+	vertical-align : top
+}
+@media screen and (max-width:736px){
+	#content div {
+		max-width:100%;
+	}
+}
