@@ -1,13 +1,84 @@
-#content div{
-	min-width:48%;
-	max-width:50%;
-	padding: 2px;
-	line-height: 160%;
-	display: inline-block;
-	vertical-align : top
+#content div {
+    min-width: 45%;
+    max-width: 100%;
+    padding: 2px;
+    line-height: 160%;
+    display: inline-block;
+    vertical-align: top;
 }
-@media screen and (max-width:736px){
-	#content div {
-		max-width:100%;
-	}
+
+@media screen and (max-width:736px) {
+    #content div {
+        max-width: 100%;
+    }
+}
+
+#crosscol-wrapper {
+    background: #3B3B3B;
+}
+
+#crosscol-wrapper a {
+    color: #FFFFFF;
+}
+
+.seigaku {
+    background-color: #3E7CC4;
+}
+
+.fudoumine {
+    background-color: #000000;
+}
+
+.stRudolph {
+    background-color: #41210F;
+}
+
+.yamabuki {
+    background-color: #188A2F;
+}
+
+.hyoutei {
+    background-color: #CCE8F8;
+    color: #0B0E2A;
+}
+
+.rokkaku {
+    background-color: #CC3300;
+}
+
+.rikkai {
+    background-color: #EEAF19;
+}
+
+.higa {
+    background-color: #823F9E;
+}
+
+.shitenhoji {
+    background-color: #76933F;
+}
+
+.songs {
+    min-width: 45%;
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width:1650px) {
+    div.songs {
+        min-width: 100%;
+    }
+}
+
+.stage {
+    width: 99%;
+}
+.post div {
+    margin: 0;
+}
+
+.detail{
+
+	padding: 0.5em;
 }
